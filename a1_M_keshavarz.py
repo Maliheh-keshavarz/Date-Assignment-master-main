@@ -61,11 +61,7 @@ def size_check(obj, intobj):
         status: True if the length matches, False otherwise
     *********************************************************************   
     '''
-    status=False
-    if len(obj)== intobj:
-        status=True
-
-    return status
+   
 
 def range_check(obj1, obj2):
     '''
