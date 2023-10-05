@@ -1,0 +1,34 @@
+Algorithm for Assignment 1 
+[Note: Do not submit this as your own for Checkpoint 1]
+
+(1) Take the first data item and remove all non-digit characters
+
+(2) Extract the year, month, and day from the sanitized input data
+
+(3) Convert the 2-digit month to the corresponding three letter 
+    abbreviated month name
+
+(4) Rearrange the year, month, and day into the required format
+    i.e. mmm d, yyyy
+    
+(5) Send the final data to standard output    
+------------------------------------------
+student :Maliheh Keshavarz
+
+1-input data by user
+
+2-initialize variable for valid format date and variable equal to month number
+
+3-validation of date based on standard format(if not correct send a message) 
+
+4-validate date to ensure that in the correct range or not
+
+5-if the input data is correct, extract year month a day
+
+6-check it is a leap year or not
+
+7-convert month to three letters abbreviated
+
+8-convert to a standard date form
+
+9-return as an output
