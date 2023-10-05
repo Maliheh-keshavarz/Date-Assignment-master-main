@@ -69,9 +69,23 @@ def size_check(obj, intobj):
 
 def range_check(obj1, obj2):
     '''
-    put your function level docstring here ..
+    *********************************************************************
+    Check if the input value (obj1) is within the specified range (obj2).
+
+    Parameters:
+        obj1: input value
+        obj2: tuple representing the range (min, max)
+
+    Returns:
+        status: True if obj1 is within the range, False otherwise
+    *********************************************************************   
     '''
-    
+    status=False
+    low, high=obj2
+    if low <= obj1 and obj1 <= high:
+        status=True
+
+    return status
     
 def usage():    
     '''
