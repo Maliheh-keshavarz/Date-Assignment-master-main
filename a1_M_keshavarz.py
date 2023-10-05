@@ -17,7 +17,7 @@ import sys
 def leap_year(obj):
     '''
     *******************************
-    return a year is leap or not  *
+    return a year is leap or not. *
         parameters:               *
             obj:year              *
         return:                   *
@@ -33,7 +33,7 @@ def leap_year(obj):
 def sanitize(obj1,obj2):
     '''
     *********************************************************************
-    remove all of non digit char in the input string                   **
+    remove all of non digit char in the input string.                  **
         parameters:                                                    **
             obj1:input string                                          **
             obj2:allow characters                                      **
@@ -89,9 +89,14 @@ def range_check(obj1, obj2):
     
 def usage():    
     '''
-    put your function level docstring here ...
+    *********************************************************************
+    Display a usage message when user enter incorrect number of arguments.
+
+    Returns:
+        message: A string containing the message.
+    *********************************************************************
     '''
-    ...
+    status="Wrong input data,Example:2021-09-01\n"
     return status
 
 if __name__ == "__main__":
