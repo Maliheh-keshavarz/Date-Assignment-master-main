@@ -4,9 +4,9 @@
     you can have more than one line of docstring.
     Please personlize the following author declaration:
 -----------------------------------------------------------------------
-Program: a1_[student_name].py (replace [student_name] with your student name)
+Program: a1_[M_keshavarz].py (replace [M_keshavarz] with your student name)
 Author: "Student Name"
-The python code in this file (a1_[Maliheh_keshavarz].py) is original work written by
+The python code in this file (a1_[M_keshavarz].py) is original work written by
 "Maliheh keshavarz". No code in this file is copied from any other source 
 except those provided by the course instructor, including any person, 
 textbook, or on-line resource.
@@ -96,7 +96,7 @@ def usage():
         message: A string containing the message.
     *********************************************************************
     '''
-    status="Wrong input data,Example:2021-09-01\n"
+    status="a1_M_keshavarz.py YYYYMMDD|YYYY/MM/DD|YYYY-MM-DD|YYYY.MM.DD"
     return status
 
 if __name__ == "__main__":
