@@ -1,5 +1,5 @@
 When you have your python script for date assignment is ready, name your script as
-a1_[student_name].py. The following example assume "koofi" is the [student_name]. 
+a1_M_keshavarz.py. The following example assume "koofi" is the [student_name]. 
 Run the test script checkA1.py as show below.
 
 Please note that this test script "checkA1.py" is only a priliminary test, it does not perform a full test. 
@@ -8,7 +8,7 @@ It will not check the docstring in your script.
 Your algorithm file and other files on github.com will be checked in a separate manner.
 
 To run the test use the following command into your shell (make sure your a1_[student_name].py file and checkA1.py both are in the same directory):
-python checkA1.py koofi
+python checkA1.py M_keshavarz
 
 == Preliminary A1 Test Run Report for koofi==
 The following is your preliminary test run report for assignment 1. Please review the report and fix all the errors identified before submitting your algorithm, python script, and test report to blackboard using the assignment 1 submission link which will be available on Monday, Feb 22, 2021.

@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/bin/env python
 '''
 This check script will run the sample tests on assignment 1.
 Please note that this script does not check the docstring of the script 
@@ -16,11 +16,14 @@ def preliminary_grading(stud_name):
     return message
 
 
+
 if __name__ == '__main__':
+   
    if len(sys.argv) != 2:
-        student = input('Please enter your student_name:')
+        student = input('Please enter your student_name:') 
    else:
         student = sys.argv[1]
+        
    
    a1_script = 'a1_'+student+'.py'
    if not os.path.isfile(a1_script):
@@ -54,11 +57,11 @@ if __name__ == '__main__':
             }
    test_marks = {}
    for test_no in range(1,len(tests)+1):
-       cmd = 'python3 a1_'+student+'.py '+tests[test_no][0]
+       cmd = 'python a1_'+student+'.py '+tests[test_no][0]
        print('Test run command',test_no,':',cmd)
        p1 = subprocess.Popen(cmd,shell=True,stdout=subprocess.PIPE)
-       result = p1.communicate()[0].decode('utf-8').strip('\n')
-       expected = tests[test_no][1].strip('\n')
+       result = p1.communicate()[0].decode('utf-8').strip()
+       expected = tests[test_no][1].strip()
        if result == expected:
           print('--test passed--')
           test_marks[test_no] = 1
